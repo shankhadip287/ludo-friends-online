@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: ludo-friends-online
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
